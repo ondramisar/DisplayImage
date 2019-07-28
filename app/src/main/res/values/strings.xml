@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DisplayImage</string>
+
+    <string name="login">Login</string>
+
+    <string name="retry">Try again</string>
+    <string name="loading_text">Problem with login please try again later</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin_inputs">14dp</dimen>
+    <dimen name="top_margin_image">50dp</dimen>
+    <dimen name="top_margin_error_text">50dp</dimen>
+    <dimen name="side_margin">16dp</dimen>
+    <dimen name="text_size_title_detail">24sp</dimen>
+</resources>
