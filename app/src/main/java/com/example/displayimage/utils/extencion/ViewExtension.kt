@@ -1,4 +1,4 @@
-package com.example.movieslist.utils.extencion
+package com.example.displayimage.utils.extencion
 
 import java.io.UnsupportedEncodingException
 import java.security.MessageDigest

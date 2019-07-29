@@ -10,7 +10,7 @@ apply plugin: 'kotlin-kapt'
 
 android {
     defaultConfig {
-        applicationId "com.example.movieslist"
+        applicationId "com.example.displayimage"
         compileSdkVersion Android.compileSdkVersion
         minSdkVersion Android.minSdkVersion
         targetSdkVersion Android.targetSdkVersion

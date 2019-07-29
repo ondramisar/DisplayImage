@@ -1,7 +1,7 @@
-package com.example.movieslist.di.module
+package com.example.displayimage.di.module
 
-import com.example.movieslist.network.NetworkApi
-import com.example.movieslist.utils.BASE_URL
+import com.example.displayimage.network.NetworkApi
+import com.example.displayimage.utils.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable

@@ -1,9 +1,9 @@
-package com.example.movieslist.ui
+package com.example.displayimage.ui
 
 import androidx.lifecycle.MutableLiveData
-import com.example.movieslist.base.BaseViewModel
-import com.example.movieslist.db.models.Response
-import com.example.movieslist.network.IImageRepository
+import com.example.displayimage.base.BaseViewModel
+import com.example.displayimage.db.models.Response
+import com.example.displayimage.network.IImageRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers

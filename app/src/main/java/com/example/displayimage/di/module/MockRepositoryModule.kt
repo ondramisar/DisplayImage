@@ -1,7 +1,7 @@
-package com.example.movieslist.di.module
+package com.example.displayimage.di.module
 
-import com.example.movieslist.network.IImageRepository
-import com.example.movieslist.network.mock.ImageRepository
+import com.example.displayimage.network.IImageRepository
+import com.example.displayimage.network.mock.ImageRepository
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable

@@ -1,3 +1,3 @@
-package com.example.movieslist.db.models
+package com.example.displayimage.db.models
 
 data class Response(val image: String)

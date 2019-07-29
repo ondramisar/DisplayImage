@@ -1,8 +1,8 @@
-package com.example.movieslist.di
+package com.example.displayimage.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.movieslist.ui.DisplayImageViewModel
+import com.example.displayimage.ui.DisplayImageViewModel
 
 class ViewModelFactory : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {

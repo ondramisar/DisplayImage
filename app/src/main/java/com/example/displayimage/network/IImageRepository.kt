@@ -1,6 +1,6 @@
-package com.example.movieslist.network
+package com.example.displayimage.network
 
-import com.example.movieslist.db.models.Response
+import com.example.displayimage.db.models.Response
 import io.reactivex.Flowable
 
 interface IImageRepository {

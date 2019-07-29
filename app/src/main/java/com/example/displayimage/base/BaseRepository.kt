@@ -1,9 +1,9 @@
-package com.example.movieslist.base
+package com.example.displayimage.base
 
-import com.example.movieslist.di.componenet.DaggerRepositoryInjector
-import com.example.movieslist.di.componenet.RepositoryInjector
-import com.example.movieslist.di.module.NetworkModule
-import com.example.movieslist.network.ImageRepository
+import com.example.displayimage.di.componenet.DaggerRepositoryInjector
+import com.example.displayimage.di.componenet.RepositoryInjector
+import com.example.displayimage.di.module.NetworkModule
+import com.example.displayimage.network.ImageRepository
 
 abstract class BaseRepository {
     private val injector: RepositoryInjector = DaggerRepositoryInjector

@@ -1,13 +1,13 @@
-package com.example.movieslist.base
+package com.example.displayimage.base
 
 import androidx.lifecycle.ViewModel
-import com.example.movieslist.di.componenet.DaggerMockViewModelInjector
-import com.example.movieslist.di.componenet.DaggerViewModelInjector
-import com.example.movieslist.di.componenet.MockViewModelInjector
-import com.example.movieslist.di.componenet.ViewModelInjector
-import com.example.movieslist.di.module.MockRepositoryModule
-import com.example.movieslist.di.module.RepositoryModule
-import com.example.movieslist.ui.DisplayImageViewModel
+import com.example.displayimage.di.componenet.DaggerMockViewModelInjector
+import com.example.displayimage.di.componenet.DaggerViewModelInjector
+import com.example.displayimage.di.componenet.MockViewModelInjector
+import com.example.displayimage.di.componenet.ViewModelInjector
+import com.example.displayimage.di.module.MockRepositoryModule
+import com.example.displayimage.di.module.RepositoryModule
+import com.example.displayimage.ui.DisplayImageViewModel
 
 abstract class BaseViewModel : ViewModel() {
 

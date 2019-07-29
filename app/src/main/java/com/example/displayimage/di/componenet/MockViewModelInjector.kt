@@ -1,7 +1,7 @@
-package com.example.movieslist.di.componenet
+package com.example.displayimage.di.componenet
 
-import com.example.movieslist.di.module.MockRepositoryModule
-import com.example.movieslist.ui.DisplayImageViewModel
+import com.example.displayimage.di.module.MockRepositoryModule
+import com.example.displayimage.ui.DisplayImageViewModel
 import dagger.Component
 import javax.inject.Singleton
 

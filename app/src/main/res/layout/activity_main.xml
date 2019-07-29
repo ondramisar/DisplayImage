@@ -16,64 +16,73 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             app:titleTextColor="@android:color/white"/>
-
-    <ProgressBar
-            android:id="@+id/progress_bar_detail"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:visibility="gone"/>
-
-    <TextView
-            android:id="@+id/error_text_detail"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/textColorPrimary"
-            android:layout_marginTop="@dimen/top_margin_error_text"
-            android:layout_marginStart="@dimen/side_margin"
-            android:layout_marginEnd="@dimen/side_margin"
-            android:textSize="@dimen/text_size_title_detail"/>
-
-    <ImageView
-            android:id="@+id/image_view"
-            android:layout_gravity="center"
-            android:foregroundGravity="center"
-            android:layout_marginTop="@dimen/top_margin_image"
-            android:layout_marginBottom="@dimen/top_margin_image"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/background">
+            <ProgressBar
+                    android:id="@+id/progress_bar_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
 
-    <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/top_margin_inputs"
-            android:layout_marginStart="@dimen/side_margin"
-            android:layout_marginEnd="@dimen/side_margin"
-            android:textColor="@color/textColorPrimary"
-            android:singleLine="true"
-            android:nextFocusDown="@+id/password"/>
+            <TextView
+                    android:id="@+id/error_text_detail"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorPrimary"
+                    android:layout_marginTop="@dimen/top_margin_error_text"
+                    android:layout_marginStart="@dimen/side_margin"
+                    android:layout_marginEnd="@dimen/side_margin"
+                    android:textSize="@dimen/text_size_title_detail"/>
 
-    <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/top_margin_inputs"
-            android:layout_marginStart="@dimen/side_margin"
-            android:layout_marginEnd="@dimen/side_margin"
-            android:textColor="@color/textColorPrimary"
-            android:singleLine="true"
-            android:imeOptions="actionDone"/>
+            <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:layout_marginTop="@dimen/top_margin_image"
+                    android:layout_marginBottom="@dimen/top_margin_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
 
-    <Button
-            android:id="@+id/get_image"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/login"
-            android:layout_marginTop="@dimen/top_margin_inputs"
-            android:layout_marginBottom="@dimen/top_margin_inputs"
-            android:layout_marginStart="@dimen/side_margin"
-            android:layout_marginEnd="@dimen/side_margin"/>
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin_inputs"
+                    android:layout_marginStart="@dimen/side_margin"
+                    android:layout_marginEnd="@dimen/side_margin"
+                    android:textColor="@color/textColorPrimary"
+                    android:singleLine="true"
+                    android:nextFocusDown="@+id/password"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin_inputs"
+                    android:layout_marginStart="@dimen/side_margin"
+                    android:layout_marginEnd="@dimen/side_margin"
+                    android:textColor="@color/textColorPrimary"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"/>
+
+            <Button
+                    android:id="@+id/get_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:layout_marginTop="@dimen/top_margin_inputs"
+                    android:layout_marginBottom="@dimen/top_margin_inputs"
+                    android:layout_marginStart="@dimen/side_margin"
+                    android:layout_marginEnd="@dimen/side_margin"/>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

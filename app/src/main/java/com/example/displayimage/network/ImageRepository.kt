@@ -1,8 +1,8 @@
-package com.example.movieslist.network
+package com.example.displayimage.network
 
-import com.example.movieslist.base.BaseRepository
-import com.example.movieslist.db.models.Response
-import com.example.movieslist.utils.extencion.SHA1
+import com.example.displayimage.base.BaseRepository
+import com.example.displayimage.db.models.Response
+import com.example.displayimage.utils.extencion.SHA1
 import io.reactivex.Flowable
 import javax.inject.Inject
 

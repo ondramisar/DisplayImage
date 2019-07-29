@@ -1,4 +1,4 @@
-package com.example.movieslist.ui
+package com.example.displayimage.ui
 
 import android.annotation.SuppressLint
 import android.graphics.BitmapFactory
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.displayimage.R
-import com.example.movieslist.di.ViewModelFactory
+import com.example.displayimage.di.ViewModelFactory
 import kotlinx.android.synthetic.main.activity_main.*
 
 

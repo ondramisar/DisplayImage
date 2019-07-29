@@ -1,7 +1,7 @@
-package com.example.movieslist.di.componenet
+package com.example.displayimage.di.componenet
 
-import com.example.movieslist.di.module.NetworkModule
-import com.example.movieslist.network.ImageRepository
+import com.example.displayimage.di.module.NetworkModule
+import com.example.displayimage.network.ImageRepository
 import dagger.Component
 import javax.inject.Singleton
 
